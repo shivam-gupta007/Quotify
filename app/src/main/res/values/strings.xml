@@ -1,4 +1,6 @@
 <resources>
-    <string name="app_name">Motivational Quotes</string>
+    <string name="app_name">Quotify</string>
     <string name="description">motivation image</string>
+    <string name="home_screen_error_msg">Quotes are not available right now, Try again later. You can check your saved quotes in the favourite section 😊</string>
+    <string name="favorite_screen_msg"><![CDATA[Tap on the quote image & click on the ❤ icon to add quotes in the favourite section]]></string>
 </resources>
