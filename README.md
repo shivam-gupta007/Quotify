@@ -10,7 +10,7 @@ This app is built with Jetpack Compose, Material Design 3, Room, Navigation Comp
 
 I am developing this project in public so that everyone can contribute, leave comments, and suggest ideas.
 
-Try latest Quotify app Apk from below
+Try latest Quotify app Apk from [here](https://github.com/shivam-gupta007/Quotify/releases/tag/v1.0.0)
 
 ## Screenshots
 
