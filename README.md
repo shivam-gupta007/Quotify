@@ -16,6 +16,11 @@ Try latest Quotify app Apk from below
 
 ![app_screenshots](https://user-images.githubusercontent.com/83108424/197847485-91553d4e-f83d-44e0-9965-c0c330c63df1.png)
 
+## Demo
+
+https://user-images.githubusercontent.com/83108424/198024653-6d9fbd40-35ef-48f7-9c83-896549928daa.mp4
+
+
 ## Features
 
 - Displays motivational quotes on beautiful background
