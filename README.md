@@ -15,3 +15,20 @@ Try latest Quotify app Apk from below
 ## Screenshots
 
 ![app_screenshots](https://user-images.githubusercontent.com/83108424/197847485-91553d4e-f83d-44e0-9965-c0c330c63df1.png)
+
+## Features
+
+- Displays motivational quotes on beautiful background
+- Stores the favorite quotes
+- Shares the quote as an image
+- Copys the quote image in the clipboard
+
+## Contributions
+
+If you've found an error in the project, please file an issue.
+
+You are welcome to submit patches by forking this project and making a pull request.
+
+## License
+
+Quotify App is distributed under the terms of the MIT License. See the license for more information.
