@@ -1,6 +1,6 @@
 ![quotify_github_banner_image](https://user-images.githubusercontent.com/83108424/197799810-a6cc5a9b-b6c6-4a5d-8f29-432ca9cb767a.png)
 
-# Quotify - a quotes application 📜
+# Quotify - a quotes android app 📜
 
 A Quotes application built with MAD skills. Made with love ❤ by [shivam gupta](https://github.com/shivam-gupta007)
 
@@ -28,7 +28,7 @@ Try latest Quotify app Apk from below
 If you've found an error in the project, please file an issue.
 
 You are welcome to submit patches by forking this project and making a pull request.
-
+For new features, use [discussion](https://github.com/shivam-gupta007/Quotify/discussions) section.
 ## License
 
 Quotify App is distributed under the terms of the MIT License. See the [license](https://github.com/shivam-gupta007/Quotify/blob/master/LICENSE.md) for more information.
