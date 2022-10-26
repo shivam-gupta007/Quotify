@@ -31,4 +31,4 @@ You are welcome to submit patches by forking this project and making a pull requ
 
 ## License
 
-Quotify App is distributed under the terms of the MIT License. See the license for more information.
+Quotify App is distributed under the terms of the MIT License. See the [license](https://github.com/shivam-gupta007/Quotify/blob/master/LICENSE.md) for more information.
