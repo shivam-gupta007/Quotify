@@ -4,7 +4,7 @@
 
 A Quotes application built with MAD skills. Made with love ❤ by [shivam gupta](https://github.com/shivam-gupta007)
 
-An app that provides motivational quotes on beautiful backgrounds to help users stay motivated.
+An app that shows motivational quotes on beautiful backgrounds to help users stay motivated.
 
 This app is built with Jetpack Compose, Material Design 3, Room, Navigation Components, Kotlin Coroutines, and Hilt, following the recommended [Android Architecture Guidelines](https://developer.android.com/topic/architecture).
 
@@ -24,8 +24,9 @@ https://user-images.githubusercontent.com/83108424/198024653-6d9fbd40-35ef-48f7-
 ## Features
 
 - Displays motivational quotes on beautiful background
-- Stores the favorite quotes
-- Shares the quote as an image
+- Save your favorite quotes in the favorite section.
+- Share the quotes image across multiple platforms like WhatsApp, Facebook, Instagram, and so on. 
+- Enjoy your favorite quotes in offline mode when you don't have an internet connection.
 - Copys the quote image in the clipboard
 
 ## Contributions
