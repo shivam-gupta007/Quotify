@@ -23,7 +23,7 @@ private val LightColorPalette = lightColorScheme(
 )
 
 @Composable
-fun DailyMotivationTheme(
+fun QuotifyTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {

@@ -2,7 +2,7 @@ package com.app.quotify.feature_quote.domain.use_cases
 
 import android.util.Log
 import com.app.quotify.feature_quote.data.repository.QuoteRepositoryImpl
-import com.app.quotify.feature_quote.domain.modal.Quote
+import com.app.quotify.feature_quote.domain.model.Quote
 import com.app.quotify.feature_quote.util.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -18,7 +18,7 @@ class GetQuotesFromApi(
         val quoteList = ArrayList<Quote>()
 
         try {
-            emit(Resource.Loading())
+            emit(Resource.Loading)
 
             pexelsApiResponse.photos.let { pexelsApiResponseList ->
 

@@ -3,8 +3,8 @@ package com.app.quotify.di
 import android.app.Application
 import androidx.room.Room
 import com.app.quotify.feature_quote.data.data_source.local.QuoteDatabase
-import com.app.quotify.feature_quote.data.data_source.remote.PexelsImgApi
-import com.app.quotify.feature_quote.data.data_source.remote.QuoteApi
+import com.app.quotify.feature_quote.data.data_source.remote.service.PexelsImgApi
+import com.app.quotify.feature_quote.data.data_source.remote.service.QuotableApi
 import com.app.quotify.feature_quote.data.repository.QuoteRepositoryImpl
 import com.app.quotify.feature_quote.domain.use_cases.*
 import com.app.quotify.feature_quote.util.Constants
@@ -36,33 +36,13 @@ object AppModule {
     fun provideQuoteRepository(
         db: QuoteDatabase,
         pexelsImgApi: PexelsImgApi,
-        quoteApi: QuoteApi
+        quotableApi: QuotableApi
     ): QuoteRepositoryImpl {
         return QuoteRepositoryImpl(
             quoteDatabase = db,
-            quoteApi = quoteApi,
+            quotableApi = quotableApi,
             pexelsImgApi = pexelsImgApi
         )
-    }
-
-    @Provides
-    @Singleton
-    fun provideQuoteApi(): QuoteApi {
-        return Retrofit.Builder()
-            .baseUrl(Constants.QUOTE_API_ENDPOINT)
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-            .create(QuoteApi::class.java)
-    }
-
-    @Provides
-    @Singleton
-    fun providePexelsImgApi(): PexelsImgApi {
-        return Retrofit.Builder()
-            .baseUrl(Constants.PEXELS_API_ENDPOINT)
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-            .create(PexelsImgApi::class.java)
     }
 
     @Provides

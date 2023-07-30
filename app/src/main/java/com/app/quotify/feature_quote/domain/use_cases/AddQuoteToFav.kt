@@ -1,8 +1,8 @@
 package com.app.quotify.feature_quote.domain.use_cases
 
 import com.app.quotify.feature_quote.data.repository.QuoteRepositoryImpl
-import com.app.quotify.feature_quote.domain.modal.InvalidQuoteException
-import com.app.quotify.feature_quote.domain.modal.Quote
+import com.app.quotify.feature_quote.domain.model.InvalidQuoteException
+import com.app.quotify.feature_quote.domain.model.Quote
 
 class AddQuoteToFav(
     private val quoteRepositoryImpl: QuoteRepositoryImpl

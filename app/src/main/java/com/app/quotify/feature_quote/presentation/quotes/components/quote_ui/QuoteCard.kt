@@ -15,7 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.app.quotify.feature_quote.domain.modal.Quote
+import com.app.quotify.feature_quote.domain.model.Quote
 import com.app.quotify.feature_quote.domain.use_cases.copyImageToClipboard
 import com.app.quotify.feature_quote.domain.use_cases.shareImage
 import com.app.quotify.feature_quote.presentation.navigation.BottomBarScreen

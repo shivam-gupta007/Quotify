@@ -15,5 +15,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Daily Motivation"
+rootProject.name = "Quotify"
 include ':app'

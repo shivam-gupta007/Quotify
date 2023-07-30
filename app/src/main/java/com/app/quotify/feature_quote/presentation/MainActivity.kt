@@ -10,7 +10,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.app.quotify.feature_quote.presentation.quotes.components.screens.MainScreen
-import com.app.quotify.ui.theme.DailyMotivationTheme
+import com.app.quotify.ui.theme.QuotifyTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @ExperimentalFoundationApi
@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
 
-            DailyMotivationTheme {
+            QuotifyTheme {
                 Surface {
                     MainScreen()
                 }
@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
     @Preview(showBackground = true)
     @Composable
     fun DefaultPreview() {
-        DailyMotivationTheme {
+        QuotifyTheme {
             MainScreen()
         }
     }

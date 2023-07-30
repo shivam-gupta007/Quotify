@@ -76,6 +76,8 @@ class QuoteViewModel @Inject constructor(
                     )
                     Log.d("ResourceResponse","Loading")
                 }
+
+                else -> {}
             }
         }.launchIn(viewModelScope)
     }

@@ -1,8 +1,9 @@
 package com.app.quotify.feature_quote.domain.repository
 
-import com.app.quotify.feature_quote.domain.modal.PexelsImageList
-import com.app.quotify.feature_quote.domain.modal.QuotableQuoteList
-import com.app.quotify.feature_quote.domain.modal.Quote
+import com.app.quotify.feature_quote.data.data_source.remote.adapter.NetworkResult
+import com.app.quotify.feature_quote.domain.model.PexelsImageList
+import com.app.quotify.feature_quote.domain.model.QuotableQuoteList
+import com.app.quotify.feature_quote.domain.model.Quote
 import kotlinx.coroutines.flow.Flow
 
 interface QuoteRepository {

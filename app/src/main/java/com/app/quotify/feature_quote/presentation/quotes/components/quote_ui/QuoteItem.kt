@@ -30,7 +30,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.app.quotify.R
-import com.app.quotify.feature_quote.domain.modal.Quote
+import com.app.quotify.feature_quote.domain.model.Quote
 import com.app.quotify.feature_quote.presentation.navigation.BottomBarScreen
 import com.app.quotify.ui.theme.Shapes
 import com.app.quotify.ui.theme.iconColor

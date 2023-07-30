@@ -1,6 +1,6 @@
 package com.app.quotify.feature_quote.presentation.quotes.components
 
-import com.app.quotify.feature_quote.domain.modal.Quote
+import com.app.quotify.feature_quote.domain.model.Quote
 
 sealed class QuoteEvent{
     object GetQuotesFromApi : QuoteEvent()

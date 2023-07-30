@@ -1,4 +1,4 @@
-package com.app.quotify.feature_quote.domain.modal
+package com.app.quotify.feature_quote.domain.model
 
 import kotlinx.serialization.Serializable
 

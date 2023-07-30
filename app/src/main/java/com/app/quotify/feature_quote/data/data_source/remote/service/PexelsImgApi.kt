@@ -1,7 +1,8 @@
-package com.app.quotify.feature_quote.data.data_source.remote
+package com.app.quotify.feature_quote.data.data_source.remote.service
 
 import com.app.quotify.BuildConfig
-import com.app.quotify.feature_quote.domain.modal.PexelsImageList
+import com.app.quotify.feature_quote.data.data_source.remote.adapter.NetworkResult
+import com.app.quotify.feature_quote.domain.model.PexelsImageList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Headers

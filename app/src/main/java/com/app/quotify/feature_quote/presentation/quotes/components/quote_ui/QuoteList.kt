@@ -8,7 +8,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.app.quotify.feature_quote.domain.modal.Quote
+import com.app.quotify.feature_quote.domain.model.Quote
 import com.app.quotify.feature_quote.presentation.navigation.BottomBarScreen
 import com.app.quotify.feature_quote.presentation.quotes.viewmodel.QuoteViewModel
 

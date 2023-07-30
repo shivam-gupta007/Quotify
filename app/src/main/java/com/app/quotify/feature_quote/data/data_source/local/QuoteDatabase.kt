@@ -2,7 +2,7 @@ package com.app.quotify.feature_quote.data.data_source.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.app.quotify.feature_quote.domain.modal.Quote
+import com.app.quotify.feature_quote.domain.model.Quote
 
 @Database(
     entities = [Quote::class],

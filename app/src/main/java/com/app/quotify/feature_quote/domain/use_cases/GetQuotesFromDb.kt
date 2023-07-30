@@ -1,10 +1,7 @@
 package com.app.quotify.feature_quote.domain.use_cases
 
-import androidx.compose.ui.res.stringResource
-import com.app.quotify.R
 import com.app.quotify.feature_quote.data.repository.QuoteRepositoryImpl
-import com.app.quotify.feature_quote.domain.modal.Quote
-import com.app.quotify.feature_quote.presentation.quotes.components.screens.EmptyScreen
+import com.app.quotify.feature_quote.domain.model.Quote
 import kotlinx.coroutines.flow.Flow
 
 class GetQuotesFromDb(

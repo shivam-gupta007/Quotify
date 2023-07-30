@@ -1,7 +1,7 @@
 package com.app.quotify.feature_quote.data.data_source.local
 
 import androidx.room.*
-import com.app.quotify.feature_quote.domain.modal.Quote
+import com.app.quotify.feature_quote.domain.model.Quote
 import kotlinx.coroutines.flow.Flow
 
 @Dao

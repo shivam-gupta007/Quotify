@@ -1,20 +1,22 @@
 package com.app.quotify.feature_quote.data.repository
 
 import com.app.quotify.feature_quote.data.data_source.local.QuoteDatabase
-import com.app.quotify.feature_quote.data.data_source.remote.PexelsImgApi
-import com.app.quotify.feature_quote.data.data_source.remote.QuoteApi
-import com.app.quotify.feature_quote.domain.modal.PexelsImageList
-import com.app.quotify.feature_quote.domain.modal.QuotableQuoteList
-import com.app.quotify.feature_quote.domain.modal.Quote
+import com.app.quotify.feature_quote.data.data_source.remote.adapter.NetworkResult
+import com.app.quotify.feature_quote.data.data_source.remote.service.PexelsImgApi
+import com.app.quotify.feature_quote.data.data_source.remote.service.QuotableApi
+import com.app.quotify.feature_quote.domain.model.PexelsImageList
+import com.app.quotify.feature_quote.domain.model.QuotableQuoteList
+import com.app.quotify.feature_quote.domain.model.Quote
 import com.app.quotify.feature_quote.domain.repository.QuoteRepository
 import com.app.quotify.feature_quote.util.Constants.imgCategoryList
 import kotlinx.coroutines.flow.Flow
+import retrofit2.Response
 import java.util.*
 import javax.inject.Inject
 
 class QuoteRepositoryImpl @Inject constructor(
     quoteDatabase: QuoteDatabase,
-    private val quoteApi: QuoteApi,
+    private val quotableApi: QuotableApi,
     private val pexelsImgApi: PexelsImgApi
 ) : QuoteRepository {
 
@@ -27,7 +29,7 @@ class QuoteRepositoryImpl @Inject constructor(
     }
 
     override suspend fun getQuotesText(): QuotableQuoteList {
-        return quoteApi.getQuotes(
+        return quotableApi.getQuotes(
             Random().nextInt(95)
         ).body()!!
     }

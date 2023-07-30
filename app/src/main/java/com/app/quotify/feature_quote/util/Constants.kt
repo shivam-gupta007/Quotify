@@ -33,7 +33,7 @@ object Constants {
 
     const val PEXELS_API_ENDPOINT = "https://api.pexels.com/"
 
-    const val QUOTE_API_ENDPOINT = "https://quotable.io/"
+    const val QUOTABLE_API_ENDPOINT = "https://quotable.io/"
 
     const val QUOTE_DATABASE = "quote_db"
 
